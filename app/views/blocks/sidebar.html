@@ -1,0 +1,52 @@
+<!-- begin sidebar -->
+  
+    <div class="page-sidebar navbar-collapse collapse">
+      
+        
+          <tree-view tree-data="demo.tree" text-field="name" value-field="id" item-clicked="demo.itemClicked($item)" item-checked-changed="demo.itemCheckedChanged($item)" can-checked="true"></tree-view>
+          <script type="text/ng-template" id="/treeView.html">
+            <div ui-sidebar class="aside-wrap">
+              <div class="navi-wrap">
+                <div class="anav">
+                  <ul class="page-sidebar-menu nav">
+                    <li>
+                      <div class="sidebar-toggler hidden-phone">
+                        <a class="aicon icon-mid" ng-click="$parent.app.settings.asideFolded = !$parent.app.settings.asideFolded">
+                          <span class="icon-stats"></span>
+                        </a>
+                      </div>
+                    </li>
+                    <li ng-repeat="item in treeData" ng-include="itemTemplateUrl || '/treeItem.html'" class="">
+                      
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </script>
+          <script type="text/ng-template" id="/treeItem.html">  <!-- type="text/ng-template"指明这是ng模板，id属性是指实际使用模板时的一个引用，标签之间的内容是实际的模板内容，id不是URL -->
+            <a href class="auto">      
+              <span class="pull-right text-muted">
+                <i class="fa fa-fw fa-angle-right text"></i>
+                <i class="fa fa-fw fa-angle-down text-active"></i>
+              </span>
+              <i class="fa fa-table icon"></i>
+              <span class="font-bold" ng-bind="item.name"></span>
+            </a>
+            <ul class="nav nav-sub dk">
+              <li class="nav-sub-header">
+                <a href>
+                  <span ng-bind="item.name"></span>
+                </a>
+              </li>
+              <li ng-repeat="item in item.children" ng-include=" itemTemplateUrl || '/treeItemDetail.html' " ui-sref-active="active">
+              </li>
+            </ul>
+          </script>
+          <script type="text/ng-template" id="/treeItemDetail.html">  <!-- type="text/ng-template"指明这是ng模板，id属性是指实际使用模板时的一个引用，标签之间的内容是实际的模板内容，id不是URL -->
+            <a href ui-sref="{{item.url}}">
+              <span ng-bind="item.name"></span>
+            </a>
+          </script>
+</div>
+<!-- end sidebar -->

@@ -1,0 +1,12 @@
+[
+	{
+		"type": "add",
+		"text": "新增",
+		"classtype": "btn-info"
+	},
+	{
+		"type": "delete",
+		"text": "删除",
+		"classtype": "btn-danger"
+	}
+]

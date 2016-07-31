@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<!-- box-pack决定了父标签水平遗留空间的使用. -->
+		<!-- start | end | center | justify -->
+		<!-- start表示左边对齐，end为右边对齐，center为水平居中对齐，justify表示两端对齐。貌似发现在Firefox浏览器下，justify是没有反应的，可能还未支持。Chrome浏览器表现良好。 -->
+		<style type="text/css">
+			.test_box {
+				display: -moz-box;
+				display: -webkit-box;
+				display: -o-box;
+				display: box;
+
+				-moz-box-pack: center;
+				-webkit-box-pack: center;
+				-o-box-pack: center;
+				box-pack: center;
+
+				width: 400px;
+				height: 250px;
+				padding: 20px;
+				background-color: #f0f3f9;
+			}
+
+			.list {
+			    padding: 0 1em; 
+			    font: bold 36px/120px monaco; 
+			    text-shadow: 1px 1px #eee;
+			}
+
+			.list:nth-child(1){
+				height: 100px;
+				background-color: #FA6C6B;
+			}
+
+			.list:nth-child(2){
+				height: 200px;
+				background-color: #FD5A6F;
+			}
+
+			.list:nth-child(3){
+				height: 150px;
+				background-color: #FD6A97;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="test_box">
+		    <div class="list">1</div>
+		    <div class="list" style="line-height:200px;">2</div>
+		    <div class="list">3</div>
+		</div>
+	</body>
+</html>

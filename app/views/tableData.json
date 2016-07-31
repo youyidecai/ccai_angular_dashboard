@@ -1,0 +1,82 @@
+[   
+{
+		"id": 1,
+		"realname": "宋江",
+		"name": "及时雨",
+		"department": "三十六天罡",
+		"position": "总兵都头领",
+		"role": "天魁星",
+		"states": "第41回",
+		"check": false
+	},
+	{
+		"id": 2,
+		"realname": "卢俊义",
+		"name": "玉麒麟",
+		"department": "三十六天罡",
+		"position": "总兵都头领",
+		"role": "天罡星",
+		"states": "第67回",
+		"check": false
+	},
+	{
+		"id": 3,
+		"realname": "吴用",
+		"name": "智多星",
+		"department": "三十六天罡",
+		"position": "掌管机密军师",
+		"role": "天机星",
+		"states": "第20回",
+		"check": false
+	},
+	{
+		"id": 4,
+		"realname": "公孙胜",
+		"name": "入云龙",
+		"department": "三十六天罡",
+		"position": "掌管机密军师",
+		"role": "天闲星",
+		"states": "第15回",
+		"check": false
+	},
+	{
+		"id": 5,
+		"realname": "关胜",
+		"name": "大刀",
+		"department": "三十六天罡",
+		"position": "马军五虎将、左军大将",
+		"role": "天勇星",
+		"states": "第64回",
+		"check": false
+	},
+	{
+		"id": 6,
+		"realname": "林冲",
+		"name": "豹子头",
+		"department": "三十六天罡",
+		"position": "马军五虎将、右军大将",
+		"role": "天雄星",
+		"states": "第12回",
+		"check": false
+	},
+	{
+		"id": 7,
+		"realname": "秦明",
+		"name": "霹雳火",
+		"department": "三十六天罡",
+		"position": "马军五虎将、先锋大将",
+		"role": "天猛星",
+		"states": "第35回",
+		"check": false
+	},
+	{
+		"id": 8,
+		"realname": "呼延灼",
+		"name": "双鞭",
+		"department": "三十六天罡",
+		"position": "马军五虎将、合后大将",
+		"role": "天威星",
+		"states": "第58回",
+		"check": false
+	}
+	]

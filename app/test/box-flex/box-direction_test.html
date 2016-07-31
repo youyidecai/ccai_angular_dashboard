@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<!-- box-direction是用来确定子元素的排列顺序 -->
+		<!-- normal | reverse | inherit -->
+		<!-- 其中normal是默认值，表示按照正常顺序排列。所谓正常顺序，就是我们看书写文字的顺序，从左往右，由上至下，先出现的元素，就上面或是左边。而reverse表示反转，原本从左往右应该是1-2-3的，结果显示确实3-2-1。 -->
+		<style type="text/css">
+			.test_box {
+				display: -moz-box;
+				display: -webkit-box;
+				display: -o-box;
+				display: box;
+
+				-moz-box-direction: reverse;
+				-webkit-box-direction: reverse;
+				-o-box-direction: reverse;
+				box-direction: reverse;
+
+				-moz-box-pack: center;
+				-webkit-box-pack: center;
+				-o-box-pack: center;
+				box-pack: center;
+
+				-moz-box-align: end;
+				-webkit-box-align: end;
+				-o-box-align: end;
+				box-align: end;
+
+				width: 400px;
+				height: 250px;
+				padding: 20px;
+				background-color: #f0f3f9;
+			}
+
+			.list {
+			    padding: 0 1em; 
+			    font: bold 36px/120px monaco; 
+			    text-shadow: 1px 1px #eee;
+			}
+
+			.list:nth-child(1){
+				height: 100px;
+				background-color: #FA6C6B;
+			}
+
+			.list:nth-child(2){
+				height: 200px;
+				background-color: #FD5A6F;
+			}
+
+			.list:nth-child(3){
+				height: 150px;
+				background-color: #FD6A97;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="test_box">
+		    <div class="list">1</div>
+		    <div class="list" style="line-height:200px;">2</div>
+		    <div class="list">3</div>
+		</div>
+	</body>
+</html>

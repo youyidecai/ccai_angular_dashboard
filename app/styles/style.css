@@ -1,0 +1,191 @@
+body { 
+  color: #000; 
+  font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size:12px; 
+  direction: ltr;
+  overflow: hidden;
+}
+body {
+  background-color: #333 !important;
+  scrollbar-arrow-color: #fff;  /*图6,三角箭头的颜色*/
+scrollbar-face-color: #333;  /*图5,立体滚动条的颜色*/
+scrollbar-3dlight-color: #666;  /*图1,立体滚动条亮边的颜色*/
+scrollbar-highlight-color: #666;  /*图2,滚动条空白部分的颜色*/
+scrollbar-shadow-color: #999;  /*图3,立体滚动条阴影的颜色*/
+scrollbar-darkshadow-color: #666;  /*图4,立体滚动条强阴影的颜色*/
+scrollbar-track-color: #666;  /*图7,立体滚动条背景颜色*/
+
+scrollbar-base-color:#f8f8f8;  /*滚动条的基本颜色*/
+Cursor:url(mouse.cur);  /*自定义个性鼠标*/
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 0;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #BDE0F8; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #BDE0F8; 
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+a{
+  color: #000;
+}
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+}
+.page-header-fixed{
+	background-color: #f7f7f7;
+}
+.header{
+  padding: 0;
+  margin: 0;
+  min-height: 40px;
+}
+.header .navbar-brand{
+  padding: 3px 15px;
+  height: auto;
+  line-height: 35px;
+  color: #fff;
+  font-size: 22px;
+}
+.header .navbar-brand:hover {
+  color: #fff;
+}
+.header .navbar-brand img{
+  margin-right: 15px;
+}
+.logo-box{
+  float:left;
+  margin-left: -15px;
+  height: 46px;
+  width: 190px;
+  text-align: center;
+  display: inline-block;
+  line-height: 35px;
+  /* background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#7FB5D9), to(#C1E5FD)); */
+  /*background: rgba(255, 255, 255, 0.74);*/
+}
+.header .nav > li.dropdown .dropdown-toggle .username {
+  color: #fff;
+} 
+.header .nav > li.dropdown .dropdown-toggle .caret {
+  color: #fff;
+} 
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #3A98D8;
+  border-color: #3A98D8;
+}
+.navbar-inverse {
+  background-color: #3A98D8;
+  border-color: #3A98D8;
+}
+.navbar-inner {
+  width: 100%;
+  margin-left: 0 0 0 110px;
+  border: 0px;
+  padding: 0px;
+  box-shadow: none;
+}
+.header .brand {
+  display: inline-block;
+  margin-top: -1px;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 225px;
+  }
+.page-content {
+  padding: 10px 15px;
+  background-color: #fff;
+}
+/*.nav > li{
+  float: left;
+  line-height: 30px;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 8px 15px;
+}
+.nav > li > a{
+  color: #fff;
+}
+.nav > li > a:hover, .nav>li>a:focus{
+  background: none;
+  color: auto;
+}*/
+.navbar-collapse{
+  padding:0;
+}
+.dropdown-menu, .select2-drop{
+  min-width: 110px;
+  border-radius: 1px;
+  font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.dropdown-menu > li:first-child > a:first-child {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+  background-color: #F5F5F5;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 0;
+}
+.navbar .nav>li>.dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-bottom: 7px solid #ccc;
+  border-right: 7px solid transparent;
+  
+  border-left: 7px solid transparent;
+  border-bottom-color: #fff;
+  content: '';
+}
+.collapse {
+  display: block;
+}
+.page-container {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 43px;
+}
+.footer {
+  text-align: center;
+}
+.footer .footer-inner {
+  color: #fff;
+  padding: 5px 0;
+  background: #3A98D8;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

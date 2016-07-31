@@ -1,0 +1,352 @@
+.page-sidebar {
+  position: fixed;
+  top: 45px;
+  left: 0;
+}
+.page-sidebar-closed ul.page-sidebar-menu > li >a:hover{
+  background: #303030 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a{
+  color: #F0F0F0;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a,
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+  color: #A1A1A1 !important;
+  background: #3C4552 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+  background: #3C4552 !important;
+}
+/*ul.page-sidebar-menu > li.active > .auto {
+  background: #3A98D8 !important;
+  border-top-color: transparent !important;
+  color: #ffffff;
+}*/
+ul.page-sidebar-menu > li.active > .auto {
+  background: #303030 !important; #303030
+  border-top-color: transparent !important;
+  color: #ffffff;
+}
+ul.page-sidebar-menu > li > a {
+  border-top: 1px solid #2C333D !important;
+  color: #fff;
+}
+.pagination > li > a{
+  color: #657684;
+}
+.page-sidebar-closed ul.page-sidebar-menu > li:hover .sub-menu {
+  background-color: #3d3d3d;
+}
+ul.page-sidebar-menu > li.open > a,
+.page-sidebar-closed ul.page-sidebar-menu > li > a:hover,
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > a {
+  background: #303030;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a,
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+  color: #ffffff !important;
+  background: #383B3F !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover,{
+  background: #383B3F !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a.active,
+ul.page-sidebar-menu > li > ul.sub-menu > li > a.active:hover {
+  background: #3A98D8 !important;
+}
+.page-sidebar {
+  background-color: #333;
+}
+ul.page-sidebar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+}
+ul.page-sidebar-menu > li > a {
+  display: block;
+  position: relative;
+  margin: 0;
+  border: 0px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+ul.page-sidebar-menu > li i {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.page-sidebar ul > li > a > .arrow:before {
+  float: right;
+  margin-top: 1px;
+  margin-right: 5px;
+  display: inline;
+  font-size: 16px;
+  font-family: FontAwesome;
+  height: auto;
+  content: "\f104";
+  font-weight: 300;
+  text-shadow: none;
+}
+
+ul.page-sidebar-menu > li.active > a .selected{
+  display: block;
+  width: 8px;
+  height: 25px;
+  background: url(../images/icon_arrow.png);
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 8px;
+}
+.page-sidebar-menu .sidebar-toggler{
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  margin: 4px;
+  margin-left: 68px;
+  width: 29px;
+  height: 29px;
+  background-repeat: no-repeat;
+}
+.page-sidebar-closed .page-sidebar-menu .sidebar-toggler .side-hide{
+  border-radius: 2px;
+}
+.page-sidebar-closed .sidebar-toggler .side-hide i{
+  background: #000;
+  height: 28px;
+  width: 28px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+}
+.page-content > ol.breadcrumb{
+  background: #EFEFEF;
+  border-bottom: 1px solid #E2E2E2;
+  padding: 2px 15px;
+  border-radius: 0;
+}
+.page-content > ol.breadcrumb i{
+  margin: 10px 10px;
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: initial;
+}
+ul.page-sidebar-menu > li > ul.sub-menu {
+  display: none;
+  list-style: none;
+  clear: both;
+  margin: 8px 0px 8px 0px;
+}
+ul.page-sidebar-menu > li > a > .arrow.open:before {
+  float: right;
+  margin-top: 1px;
+  margin-right: 3px;
+  display: inline;
+  font-family: FontAwesome;
+  height: auto;
+  font-size: 16px;
+  content: "\f107";
+  font-weight: 300;
+  text-shadow: none;
+}
+ul.page-sidebar-menu > li > ul.sub-menu{
+  padding: 0;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li {
+  background: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 1px !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px; 
+  padding-left: 44px !important;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  background: none;
+}
+.tablebox{
+  background: #fff;
+  border: 1px solid #428bca;
+  padding: 5px 15px;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+ul.pagination{
+  margin-top: 5px;
+}
+.row{
+  margin: 0;
+}
+.page-sidebar-closed .sidebar-toggler {  
+  margin-left: 5px;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search {  
+  height: 34px;    
+  width: 29px;
+  margin-left: 3px;  
+  margin-bottom: 15px !important;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search input {
+  display: none;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search .submit { 
+  margin: 11px 7px !important;
+  display: block !important;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search .input-box {
+  border-bottom: 0 !important;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search.open {  
+  height: 34px;    
+  width: 255px;
+  overflow: hidden;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search.open input {  
+  margin-top: 3px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  width: 180px;
+  display: inline-block !important;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search.open .submit {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 10px 8px 9px 6px !important;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search.open .remove {
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  margin: 11px 6px 7px 8px !important;
+  display: inline-block !important;
+  float: left !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li > a .selected {
+  right: -3px !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li > a > .title,
+.page-sidebar-closed ul.page-sidebar-menu > li > a > .arrow {
+  display: none !important;
+}
+
+.page-sidebar-closed .sidebar-toggler {
+  margin-right: 3px;
+}
+
+.page-sidebar-closed .page-sidebar .sidebar-search {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu {
+  width: 40px !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li > a {
+  padding-left: 7px;
+}
+
+.page-sidebar-fixed.page-sidebar-closed ul.page-sidebar-menu > li > a {
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover {
+  /*width: 225px !important;*/
+  position: relative !important;
+  z-index: 2000;
+  display: block !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover .selected,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover .selected {
+  display: none;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > a > i,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover > a > i {
+  margin-right: 10px;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover .title,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover .title {
+  display: inline !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li > .sub-menu {
+  display: none !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > .sub-menu,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover > .sub-menu {  
+  /* width: 189px; */
+  position: absolute;
+  z-index: 2000;
+  left: 36px;
+  margin-top: 0;
+  top: 100%;
+  display: block !important;
+}
+
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > .sub-menu > li > .sub-menu,
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > .sub-menu > li > .sub-menu > li > .sub-menu,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover > .sub-menu > li > .sub-menu,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover > .sub-menu > li > .sub-menu > li > .sub-menu {
+  /* width: 189px; */
+}
+
+/* 2rd level sub menu*/
+.page-sidebar-closed ul.page-sidebar-menu > li:hover > .sub-menu > li > a,
+.page-sidebar-closed ul.page-sidebar-menu > li.Ahover > .sub-menu > li > a {
+  padding-left: 15px !important;
+}
+
+/* 3rd level sub menu*/
+.page-sidebar-closed ul.page-sidebar-menu > li > ul.sub-menu > li > .sub-menu > li > a {  
+  padding-left: 30px !important;
+}
+
+/* 4rd level sub menu*/
+.page-sidebar-closed ul.page-sidebar-menu > li > ul.sub-menu > li > .sub-menu > li > .sub-menu > li > a {  
+  padding-left: 45px !important;
+}
+
+/* sidebar container */
+ 
+.page-sidebar-closed  .page-sidebar {
+  width: 35px;
+}
+
+.page-sidebar-closed  .page-content {
+  margin-left: 35px !important;
+}
+

@@ -1,0 +1,48 @@
+.aicon {
+  margin-left: 7px;
+  line-height: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+  float: left;
+}
+.icon-mid {
+  font-size: 30px;
+}
+.icon-stats {
+  top: 8px;
+  left: 1px;
+  height: 10px;
+}
+.icon-stats, .icon-stats:before {
+  position: absolute;
+  width: 12px;
+  border-width: 0 2px;
+  border-style: solid;
+  border-color: #fff;
+}
+.icon-stats:before {
+  content: "";
+  /* top: .3125em; */
+  left: 3px;
+  height: 10px;
+}
+.page-sidebar-closed .icon-stats {
+  top: 8px;
+  left: 0;
+  height: 5px;
+}
+.page-sidebar-closed .icon-stats, .page-sidebar-closed  .icon-stats:before {
+  position: absolute;
+  width: 14px;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #fff;
+}
+.page-sidebar-closed .icon-stats:before {
+  content: "";
+  top: 4px;
+  left: 0;
+  height: 5px;
+}
